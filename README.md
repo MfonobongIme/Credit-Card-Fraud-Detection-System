@@ -1,37 +1,19 @@
-##Credit Card Fraud Detection System
-This system is designed to detect fraudulent activity on credit card transactions. It uses machine learning algorithms to analyze transaction data and identify patterns that may indicate fraud.
+# Credit Card Fraud Detection System
 
-#Features
-- Real-time detection of fraudulent transactions
-- Customizable fraud detection rules
- -Integration with external data sources for additional information
-Alerts and notifications for suspicious activity
-Detailed reporting and analysis tools
-Getting Started
-Install the system by running the installation script provided.
-Configure the system by specifying the data sources to be used and the fraud detection rules.
-Integrate the system with your existing systems, such as your payment gateway.
-Use the provided reporting and analysis tools to monitor for fraudulent activity.
-Data Sources
-The system can be configured to use multiple data sources, including:
+## Introduction
+This system is designed to detect fraudulent credit card transactions using machine learning algorithms. It utilizes historical transaction data to train a model that can then be used to predict the likelihood of a new transaction being fraudulent.
 
-Transaction data from your payment gateway
-Customer information from your CRM
-External data sources such as IP geolocation services
-Fraud Detection Rules
-The system uses a combination of machine learning algorithms and rule-based logic to detect fraudulent activity. You can customize the fraud detection rules to suit your specific needs.
+## Requirements
+- Python 3.0
+- scikit-learn
+- pandas
+- numpy
 
-Alerts and Notifications
-The system will generate alerts and notifications for transactions that are flagged as suspicious. These alerts can be configured to be sent via email, SMS, or other methods.
+## Usage
+1. Run the `train.py` file to train the model using the provided dataset (`creditcard.csv`).
+2. Run the `predict.py` file to predict the likelihood of a new transaction being fraudulent. Input the transaction details as prompted.
+3. Run the `test.py` file to evaluate the performance of the model using a test dataset (`test_data.csv`).
 
-Reporting and Analysis
-The system provides detailed reporting and analysis tools to help you understand the nature of fraudulent activity and track the effectiveness of your fraud detection efforts.
-
-Technical Requirements
-Linux or Windows operating system
-Python 3.5 or above
-RAM: 4GB or higher
-CPU: 2 core or higher
-Disk space: 100GB or higher
-Support
-If you have any questions or need assistance with the system, please contact our support team at support@creditcardfraud.com.
+## Note
+- The provided dataset (`creditcard.csv`) is only for training and testing purposes and should not be used for actual transactions.
+- The system is only for educational and research purposes and is not intended for use in a production environment.
