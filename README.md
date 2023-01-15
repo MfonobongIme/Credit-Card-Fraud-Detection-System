@@ -10,7 +10,7 @@ This system is designed to detect fraudulent credit card transactions using mach
 - numpy
 
 ## Usage
-1. Run the `train.py` file to train the model using the provided dataset (`creditcard.csv`).
+1. Run the `Credit Card Fraud Detector.ipynb` file to train the model using the provided dataset (`creditcard.csv`).
 2. Run the `app.py` file to predict the likelihood of a new transaction being fraudulent. Input the transaction details as prompted.
 
 ## Note
